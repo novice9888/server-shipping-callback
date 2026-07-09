@@ -1,0 +1,14 @@
+{
+  "name": "shipping-callback-host",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone host for PayPal server-side shipping callbacks",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
