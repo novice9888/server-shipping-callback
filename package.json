@@ -1,14 +1,17 @@
 {
-  "name": "shipping-callback-host",
+  "name": "paypal-webhook-netlify",
   "version": "1.0.0",
   "private": true,
-  "description": "Standalone host for PayPal server-side shipping callbacks",
+  "description": "Sample PayPal webhook + shipping callback listeners — deployable as Netlify Functions or as a standalone Express server (Render, etc).",
   "main": "server.js",
-  "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "express": "^4.21.2"
+    "buffer-crc32": "^1.0.0",
+    "express": "^4.19.2"
   }
 }
